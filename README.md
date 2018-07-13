@@ -48,7 +48,7 @@ For example, as route middleware in an [Express](http://expressjs.com/)
 application:
 
     app.post('/login',
-      passport.authenticate('local', { failureRedirect: '/login' }),
+      passport.authenticate('metamask', { failureRedirect: '/login' }),
       function(req, res) {
         res.redirect('/');
       });
@@ -64,8 +64,8 @@ For complete, working examples, refer to the multiple [examples](https://github.
 
 ## Credits
 
-  - [Jacob Gostylo](http://github.com/jgostylo)
-  Thanks to:
+  - [Jacob Gostylo](http://github.com/jgostylo)  
+  Thanks to:  
   - [Jared Hanson](http://github.com/jaredhanson)
   for local-strategy on which this was based
 
