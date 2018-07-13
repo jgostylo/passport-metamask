@@ -1,0 +1,74 @@
+{
+  "_from": "passport-metamask@1.0.0",
+  "_id": "passport-metamask@1.0.0",
+  "_inBundle": false,
+  "_location": "/passport-metamask",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "passport-metamask@1.0.0",
+    "name": "passport-metamask",
+    "escapedName": "passport-metamask",
+    "rawSpec": "1.0.0",
+    "saveSpec": null,
+    "fetchSpec": "1.0.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/passport-metamask/-/passport-metamask-1.0.0.tgz",
+  "_spec": "passport-metamask@1.0.0",
+  "author": {
+    "name": "Jake Gostylo",
+    "email": "jgostylo@gmail.com",
+    "url": "http://github.com/jgostylo"
+  },
+  "bugs": {
+    "url": "http://github.com/jgostylo/passport-metamask/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "passport-strategy": "1.x.x",
+    "eth-sig-util": "^1.4.0"
+  },
+  "deprecated": false,
+  "description": "Metamask private key signature authentication strategy for Passport.",
+  "devDependencies": {
+    "chai": "1.x.x",
+    "chai-passport-strategy": "0.1.x",
+    "mocha": "1.x.x"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "homepage": "https://github.com/jgostylo/passport-metamask#readme",
+  "keywords": [
+    "passport",
+    "metamask",
+    "crypto",
+    "ethereum",
+    "pirl",
+    "auth",
+    "authn",
+    "authentication",
+    "private",
+    "public"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib",
+  "name": "passport-metamask",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jgostylo/passport-metamask.git"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec --require test/bootstrap/node test/*.test.js"
+  },
+  "version": "1.0.0"
+}
